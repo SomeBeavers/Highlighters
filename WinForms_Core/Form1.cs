@@ -26,7 +26,7 @@ namespace WinForms_Core
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string name = "myName";
+            string name =;
             this._clickMe = ClickMe_1;
             var s = "";
         }
