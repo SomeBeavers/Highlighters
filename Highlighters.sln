@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Highlighters_Multi", "Highl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_Framework", "Wpf_Framework\Wpf_Framework.csproj", "{FBABC17B-C93C-4F25-9D8D-E2041E757E95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForms_Core", "WinForms_Core\WinForms_Core.csproj", "{3EE92302-DEEF-4DFF-B8E0-C10268B1312C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinForms_Core", "WinForms_Core\WinForms_Core.csproj", "{3EE92302-DEEF-4DFF-B8E0-C10268B1312C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor", "Blazor\Blazor.csproj", "{320EAEE0-E56D-4DA1-A4FE-51BFFFBE52A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor", "Blazor\Blazor.csproj", "{320EAEE0-E56D-4DA1-A4FE-51BFFFBE52A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC", "MVC\MVC.csproj", "{1B9A9BD9-4FA9-4B47-8210-D6F024245725}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -58,6 +60,10 @@ Global
 		{320EAEE0-E56D-4DA1-A4FE-51BFFFBE52A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{320EAEE0-E56D-4DA1-A4FE-51BFFFBE52A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{320EAEE0-E56D-4DA1-A4FE-51BFFFBE52A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B9A9BD9-4FA9-4B47-8210-D6F024245725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B9A9BD9-4FA9-4B47-8210-D6F024245725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B9A9BD9-4FA9-4B47-8210-D6F024245725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B9A9BD9-4FA9-4B47-8210-D6F024245725}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
