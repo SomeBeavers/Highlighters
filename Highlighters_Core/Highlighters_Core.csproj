@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+      <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <Import Project="..\Shared\Shared.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <Compile Include="..\Highlighters_Framework\Linked1.cs" Link="Linked1.cs" />
+  </ItemGroup>
+
+</Project>

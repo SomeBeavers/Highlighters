@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.218
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highlighters", "Highlighters\Highlighters.csproj", "{44A0E74D-984A-475C-A6C3-209215832C04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Highlighters", "Highlighters\Highlighters.csproj", "{44A0E74D-984A-475C-A6C3-209215832C04}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Highlighters_Core", "Highlighters_Core\Highlighters_Core.csproj", "{0C4BF892-3DCE-434B-B623-ABD4E282FD90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highlighters_Framework", "Highlighters_Framework\Highlighters_Framework.csproj", "{545ACA5F-E635-4FDA-94F9-EDB357B301D4}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "Shared\Shared.shproj", "{CBBA628E-22DD-4729-ACCF-AE1B5191CAC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Highlighters_Multi", "Highlighters_Multi\Highlighters_Multi.csproj", "{102DB949-5808-4454-B351-874DFEC1D28F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_Framework", "Wpf_Framework\Wpf_Framework.csproj", "{FBABC17B-C93C-4F25-9D8D-E2041E757E95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForms_Core", "WinForms_Core\WinForms_Core.csproj", "{3EE92302-DEEF-4DFF-B8E0-C10268B1312C}"
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared\Shared.projitems*{0c4bf892-3dce-434b-b623-abd4e282fd90}*SharedItemsImports = 5
+		Shared\Shared.projitems*{545aca5f-e635-4fda-94f9-edb357b301d4}*SharedItemsImports = 4
+		Shared\Shared.projitems*{cbba628e-22dd-4729-accf-ae1b5191cac8}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -15,6 +32,26 @@ Global
 		{44A0E74D-984A-475C-A6C3-209215832C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44A0E74D-984A-475C-A6C3-209215832C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44A0E74D-984A-475C-A6C3-209215832C04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C4BF892-3DCE-434B-B623-ABD4E282FD90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C4BF892-3DCE-434B-B623-ABD4E282FD90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C4BF892-3DCE-434B-B623-ABD4E282FD90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C4BF892-3DCE-434B-B623-ABD4E282FD90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{545ACA5F-E635-4FDA-94F9-EDB357B301D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{545ACA5F-E635-4FDA-94F9-EDB357B301D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{545ACA5F-E635-4FDA-94F9-EDB357B301D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{545ACA5F-E635-4FDA-94F9-EDB357B301D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{102DB949-5808-4454-B351-874DFEC1D28F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{102DB949-5808-4454-B351-874DFEC1D28F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{102DB949-5808-4454-B351-874DFEC1D28F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{102DB949-5808-4454-B351-874DFEC1D28F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBABC17B-C93C-4F25-9D8D-E2041E757E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBABC17B-C93C-4F25-9D8D-E2041E757E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBABC17B-C93C-4F25-9D8D-E2041E757E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBABC17B-C93C-4F25-9D8D-E2041E757E95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE92302-DEEF-4DFF-B8E0-C10268B1312C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE92302-DEEF-4DFF-B8E0-C10268B1312C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE92302-DEEF-4DFF-B8E0-C10268B1312C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE92302-DEEF-4DFF-B8E0-C10268B1312C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
