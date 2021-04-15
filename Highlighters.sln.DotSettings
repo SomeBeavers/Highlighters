@@ -7,6 +7,9 @@
 	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpCodeStyle/ThisQualifier/INSTANCE_MEMBERS_QUALIFY_MEMBERS/@EntryValue">Field</s:String>
 	<s:Boolean x:Key="/Default/Environment/Editor/QuickInfo/EnableQuickInfo/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/Editor/UseCamelHumps/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/Environment/Hierarchy/Build/SolBuilderDuo/UseMsbuildSolutionBuilder/@EntryValue">NewVersion</s:String>
+	<s:String x:Key="/Default/Environment/Hierarchy/Build/SolBuilderDuo/UseMsbuildSolutionBuilder/@EntryValue">No</s:String>
 	<s:Boolean x:Key="/Default/Environment/OpenDocument/OpenProvisionTabByDefault/@EntryValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/Environment/SearchAndNavigation/OpenPreviewTabForSelectedItemInFindResults/@EntryValue">True</s:Boolean></wpf:ResourceDictionary>
+	<s:Boolean x:Key="/Default/Environment/SearchAndNavigation/OpenPreviewTabForSelectedItemInFindResults/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/GeneralLinter/Eslint/EslintConfigurationSearchMode/@EntryValue">Automatically</s:String>
+	<s:Boolean x:Key="/Default/GeneralLinter/Eslint/EslintEnabled/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/GeneralLinter/Eslint/EslintPackageSearchMode/@EntryValue">Automatically</s:String></wpf:ResourceDictionary>
