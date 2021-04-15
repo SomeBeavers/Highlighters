@@ -20,7 +20,8 @@ namespace MVC.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var javascript = "document.getElementById(\"demo\").innerHTML = \"Hello JavaScript!\"";
+            return View("CreatedView1");
         }
 
         public IActionResult Privacy()
