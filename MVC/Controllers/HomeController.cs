@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace MVC.Controllers
 {
+    [Route("Home")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -18,6 +19,7 @@ namespace MVC.Controllers
             _logger = logger;
         }
 
+        [HttpGet("b/{*x}/")]
         public IActionResult Index()
         {
             var javascript = "document.getElementById(\"demo\").innerHTML = \"Hello JavaScript!\"";
@@ -32,7 +34,9 @@ namespace MVC.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(new ErrorViewModel 
+                { RequestId = Activity.Current?.Id ?? 
+                              HttpContext.TraceIdentifier });
         }
     }
 }

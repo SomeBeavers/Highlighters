@@ -2,10 +2,11 @@
 
 namespace Highlighters
 {
-    public partial class Colors
+    public partial class Colors : ColorsBase
     {
         public void Use()
         {
+            new NullableStruct().Nullable1(parameterRecord:new Record());
             AutoProperty = "";
             Console.WriteLine(PropertyWithBackingField);
 #pragma warning disable 219
