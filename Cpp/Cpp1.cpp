@@ -5,6 +5,7 @@
 #define A
 void Cpp1::cpp1_method()
 {
+	int a1 = 1;
 }
 
 void Cpp1::cpp1_method2(int t)

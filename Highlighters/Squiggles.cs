@@ -1,7 +1,7 @@
 ﻿using System;
 using JetBrains.Annotations;
 using static System.Console;
-// ReSharper disable All
+
 
 
 

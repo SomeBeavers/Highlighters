@@ -28,12 +28,13 @@ namespace MVC.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
+            return ViewComponent("s");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
+            return Action();
             return View(new ErrorViewModel 
                 { RequestId = Activity.Current?.Id ?? 
                               HttpContext.TraceIdentifier });

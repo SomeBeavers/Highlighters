@@ -6,9 +6,17 @@ using System.Buffers;
 
 namespace Highlighters
 {
+    // Class Identifier
     public class ColorsBase
     {
         public virtual void OverrideMe()
+        {
+        
+            
+            }
+
+        private const int Test = 1;
+        private void TTTT()
         {
         }
     }
@@ -39,13 +47,17 @@ namespace Highlighters
         
         public int PropertyWithBackingField
         {
+            // Accessor Identifier
             get => this._propertyWithBackingField;
             set => this._propertyWithBackingField = value;
         }
 
+        // Constant Identifier
         public const bool Constant = false;
 
         public delegate int Del(string delegateParameter1, Record delegateParameter2);
+
+        public event Del SomeEvent;
 
         public void Dispose()
         {
@@ -77,6 +89,10 @@ namespace Highlighters
         {
             // comment
             Name = name;
+        }
+
+        public Record() : this("", "")
+        {
         }
 
         public override string ToString()
