@@ -9,11 +9,11 @@ namespace Highlighters
     {
         public CleanupTest(string s)
         {
-            foreach (var memberInList in new List<T>())
-                if (memberInList != null)
-                    Console.WriteLine(memberInList);
+            foreach (int memberInLisst in new List<T>())
+                if (memberInLisst != null)
+                    Console.WriteLine(memberInLisst);
                 else
-                    Console.WriteLine($"{nameof(memberInList)} is null");
+                    Console.WriteLine($"{nameof(memberInLisst)} is null");
 
             S = s;
         }
@@ -26,9 +26,9 @@ namespace Highlighters
             S = "";
         }
 
-        private void Test([NotNull] string s)
+        private void Test([NotNull] string memberInLisst="", int t)
         {
-            if (s == null) throw new ArgumentNullException(nameof(s));
+            if (memberInLisst == null) throw new ArgumentNullException(nameof(memberInLisst));
         }
 
         public override bool Equals(object? obj)
