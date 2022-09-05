@@ -1,1 +1,1 @@
-{"version":3,"file":"typescript.js","sourceRoot":"","sources":["typescript.ts"],"names":[],"mappings":"AAKA,IAAM,IAAI,GAAgB,CAAC;IACvB,QAAQ,EAAE,OAAO;IACjB,EAAE,EAAE,CAAC;CACR,CAAQ,CAAC"}
+{"version":3,"file":"typescript.js","sourceRoot":"","sources":["typescript.ts"],"names":[],"mappings":"AAKA,IAAM,IAAI,GAAgB,CAAC;IACvB,QAAQ,EAAE,OAAO;IACjB,EAAE,EAAE,CAAC;CACR,CAAQ,CAAC;AAEV,IAAI,IAAI,GAAG,cAAa,IAAI,CAAC,GAAQ,CAAC,CAAA,CAAC,CAAC,CAAA"}

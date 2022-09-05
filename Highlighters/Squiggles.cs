@@ -13,8 +13,9 @@ namespace Highlighters
         /*suggestion*/
 
             
-        
-        public void Test(string s, bool optional = false)
+        public void
+
+        public void Test_Renamed(string s, bool optional = false)
         {
             test;
             /*warning*/ new Squiggles(11111111/*error*/);
@@ -26,7 +27,7 @@ namespace Highlighters
         }
     }
 
-    class Person
+    class person
     {
         [NotNull]
         public string Name { get; set; }

@@ -3,14 +3,34 @@
 <h1>Counter</h1>
 
 <p>Current count: @currentCount</p>
+<button >
+    <p>@GetName("my additional name")</p>
+    <p>@GetName("additional name:")</p>
+</button>
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
 @code {
-    private int currentCount = 0;
+    private int currentCount;
+
+    private readonly string _name = "John Doe";
 
     private void IncrementCount()
     {
         currentCount++;
     }
+
+    private string GetName(string additionalName)
+    {
+        UseAnotherMethod();
+        return _name + additionalName;
+    }
+
+    private static void UseAnotherMethod()
+    {
+        throw new NotImplementedException();
+    }
+
+
+
 }
